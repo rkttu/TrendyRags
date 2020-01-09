@@ -1,0 +1,16 @@
+<license>
+    <licenseId>451101325650940</licenseId>
+    <licensee>Hwasup W. Lee</licensee>
+    <allow>
+        <add type="Callback" version="4.0" />
+        <add type="Menu" version="4.0" />
+        <add type="SlideMenu" version="4.0" />
+        <add type="TabStrip" version="4.0" />
+        <add type="MultiPage" version="4.0" />
+        <add type="TreeView" version="4.0" />
+        <add type="Calendar" version="4.0" />
+        <add type="Dialog" version="4.0" />
+        <add type="AJAXUploader" version="4.0" />
+    </allow>
+    <signature>rPbiG6p3dYqn2iUMZEibEg==</signature>
+</license>

@@ -1,0 +1,17 @@
+Hi %%SenderName%%,
+
+Thank you for referring a friend to our products.  
+In appreciation, please use the following gift code for a 15% discount at our website www.trendyrags.com.
+
+***********************************
+%%CouponCode%%
+***********************************
+ 
+ 
+
+Best Regards,
+
+Customer Service
+support@trendyrags.com
+
+ 

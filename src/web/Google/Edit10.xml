@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<ConfigMaps>
+<ConfigMap type="Skin">
+<Meta name="title">TrendyRags</Meta> 
+<Meta name="description">TrendyRags.com</Meta> 
+<Meta name="author">SI Cho</Meta> 
+<Meta name="author_email">info@trendyrags.com</Meta> 
+<Meta name="author_location">Los Angeles, CA USA</Meta> 
+<Meta name="author_affiliation">Trendyrags.com</Meta> 
+<Meta name="thumbnail">http://inthemes.com/themes/natl_parks/arches_thumbnail.jpg</Meta> 
+<Meta name="screenshot">http://inthemes.com/themes/natl_parks/arches_screenshot.jpg</Meta> 
+</ConfigMap>
+<ConfigMap type="Skin">
+<Trait name="TimeOfDay">4pm-12am</Trait> 
+<Attribute name="header.background_color">#7D9394</Attribute> 
+<Attribute name="header.tile_image.url">http://www.vanlubeck.com/igtheme/quercus_corymbion-ig-head-t.jpg</Attribute> 
+<Attribute name="header.center_image.url">http://www.vanlubeck.com/igtheme/quercus_corymbion-ig-head-c.jpg</Attribute> 
+<Attribute name="header.logo">beveled_orange</Attribute> 
+<Attribute name="header.link_color">#DAE5DE</Attribute> 
+<Attribute name="header.text_color">#DAE5DE</Attribute> 
+<Attribute name="gadget_area.tab.selected.background_color">white</Attribute> 
+<Attribute name="gadget_area.tab.selected.text_color">#45595A</Attribute> 
+<Attribute name="gadget_area.tab.unselected.background_color">#7D9394</Attribute> 
+<Attribute name="gadget_area.tab.unselected.text_color">#DAE5DE</Attribute> 
+<Attribute name="gadget_area.tab.border_color">#DAE5DE</Attribute> 
+<Attribute name="gadget_area.gadget.body.link_color">#A57000</Attribute> 
+<Attribute name="gadget_area.border_color">#7A766A</Attribute> 
+<Attribute name="gadget_area.gadget.border_color">#A1B4BA</Attribute> 
+<Attribute name="gadget_area.gadget.header.background_color">#A1B4BA</Attribute> 
+<Attribute name="gadget_area.gadget.header.text_color">#45595A</Attribute> 
+<Attribute name="gadget_area.menu_icon.image.url">http://www.vanlubeck.com/igtheme/45595A_menu.gif</Attribute> 
+<Attribute name="gadget_area.menu_icon.hover_image.url">http://www.vanlubeck.com/igtheme/45595A_menu_hover.gif</Attribute> 
+<Attribute name="gadget_area.delete_icon.image.url">http://www.vanlubeck.com/igtheme/45595A_delete.gif</Attribute> 
+<Attribute name="gadget_area.delete_icon.hover_image.url">http://www.vanlubeck.com/igtheme/45595A_delete_hover.gif</Attribute> 
+<Attribute name="gadget_area.collapse_icon.image.url">http://www.vanlubeck.com/igtheme/45595A_collapse.gif</Attribute> 
+<Attribute name="gadget_area.collapse_icon.hover_image.url">http://www.vanlubeck.com/igtheme/45595A_collapse_hover.gif</Attribute> 
+<Attribute name="gadget_area.expand_icon.image.url">http://www.vanlubeck.com/igtheme/45595A_expand.gif</Attribute> 
+<Attribute name="gadget_area.expand_icon.hover_image.url">http://www.vanlubeck.com/igtheme/45595A_expand_hover.gif</Attribute> 
+<Attribute name="footer.background_color">#DAE5DE</Attribute> 
+<Attribute name="footer.tile_image.url">http://www.vanlubeck.com/igtheme/quercus_corymbion-ig-foot-t.jpg</Attribute> 
+<Attribute name="footer.center_image.url">http://www.vanlubeck.com/igtheme/quercus_corymbion-ig-foot-c.jpg</Attribute> 
+<Attribute name="footer.link_color">#A57000</Attribute> 
+<Attribute name="footer.text_color">#DAE5DE</Attribute> 
+<Attribute name="attribution.image.url">http://www.vanlubeck.com/igtheme/vanlubeck-sig.png</Attribute> 
+</ConfigMap>
+</ConfigMaps>

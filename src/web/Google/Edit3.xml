@@ -1,0 +1,41 @@
+  <?xml version="1.0" encoding="UTF-8" ?> 
+- <ConfigMaps>
+- <ConfigMap type="Skin">
+  <Meta name="title">Looky Lou</Meta> 
+  <Meta name="description">Looky Lou The Curious Kitten</Meta> 
+  <Meta name="author">Tamara</Meta> 
+  <Meta name="author_email">noteboxx@gmail.com</Meta> 
+  <Meta name="thumbnail">http://www.forumfriends.us/google_theme/Thumbnail_410x70.png</Meta> 
+  <Meta name="screenshot">http://www.forumfriends.us/google_theme/screenshot_680x116.png</Meta> 
+  </ConfigMap>
+- <ConfigMap type="Skin">
+  <Attribute name="header.background_color">#FFFFFF</Attribute> 
+  <Attribute name="header.center_image.url">http://www.forumfriends.us/google_theme/header_center.png</Attribute> 
+  <Attribute name="header.link_color">#800000</Attribute> 
+  <Attribute name="header.text_color">#000000</Attribute> 
+  <Attribute name="header.logo">beveled_red</Attribute> 
+  <Attribute name="gadget_area.tab.border_color">#000000</Attribute> 
+  <Attribute name="gadget_area.tab.selected.background_color">#ffffff</Attribute> 
+  <Attribute name="gadget_area.tab.selected.text_color">#800000</Attribute> 
+  <Attribute name="gadget_area.tab.unselected.background_color">#c0430a</Attribute> 
+  <Attribute name="gadget_area.tab.unselected.text_color">#ffffff</Attribute> 
+  <Attribute name="gadget_area.border_color">#000000</Attribute> 
+  <Attribute name="gadget_area.gadget.header.background_color">#800000</Attribute> 
+  <Attribute name="gadget_area.gadget.header.text_color">#FFFFFF</Attribute> 
+  <Attribute name="gadget_area.gadget.border_color">#000000</Attribute> 
+  <Attribute name="gadget_area.gadget.body.link_color">#666666</Attribute> 
+  <Attribute name="gadget_area.menu_icon.image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_menu.gif</Attribute> 
+  <Attribute name="gadget_area.menu_icon.hover_image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_menu_hover.gif</Attribute> 
+  <Attribute name="gadget_area.delete_icon.image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_delete.gif</Attribute> 
+  <Attribute name="gadget_area.delete_icon.hover_image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_delete_hover.gif</Attribute> 
+  <Attribute name="gadget_area.collapse_icon.image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_collapse.gif</Attribute> 
+  <Attribute name="gadget_area.collapse_icon.hover_image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_collapse_hover.gif</Attribute> 
+  <Attribute name="gadget_area.expand_icon.image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_expand.gif</Attribute> 
+  <Attribute name="gadget_area.expand_icon.hover_image.url">http://igoogle-themes.googlecode.com/svn/trunk/ffffff_expand_hover.gif</Attribute> 
+  <Attribute name="footer.background_color">#ffffff</Attribute> 
+  <Attribute name="footer.center_image.url">http://www.forumfriends.us/google_theme/footer_center.png</Attribute> 
+  <Attribute name="footer.link_color">#800000</Attribute> 
+  <Attribute name="footer.text_color">#000000</Attribute> 
+  <Attribute name="attribution.image.url">http://www.forumfriends.us/google_theme/attri100x50.png</Attribute> 
+  </ConfigMap>
+  </ConfigMaps>

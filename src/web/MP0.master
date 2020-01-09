@@ -1,0 +1,257 @@
+﻿<%@ Master Language="VB" CodeFile="MP0.master.vb" Inherits="MP01" %>
+
+<%@ Register Assembly="EO.Web" Namespace="EO.Web" TagPrefix="eo" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+        <title>Welcome to TrendyRags.com</title>
+        <meta content="Vintage, Women, Men t-shirts, Tees, Thermals, Hoody, Hoodies, Tanktop, V-neck, Apparel, style, Hip-Hop, Hip Hop, Hollywood, Trendy, MotorCityLegends, Legends, Tattoo, TrendyRags,  "
+                name="keywords" />
+        <meta content="new creative designs that represent the toughness of an American Rebel Rocker to the cuteness of urban creatures.  The company will set another milestone in the streetwear clothing market competing with labels like Ed hardy, Christian Audigier,Aqua-VI, Smet, Affliction, Salvage, Monarchy, Drifters, and Great China Wall.  Our labels can be found at retailers like shopkitson, planetfunk, electricladyland, shopbellamoda, emoda, lounge soho, In Style, and shopebutante."
+                name="description" />
+        <style media="all" type="text/css">
+                @import "css/trendyrags.css";
+                @import "css/HighSlide.css";
+                @import "css/HighSlide_Html.css";
+        </style>
+
+        <script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function opentable() {
+    window.open("Support/FreeGroundShipping.aspx", "FreeGroundShipping", "menubar=0,resizable=0,width=500,height=350,status=0");
+}
+
+//-->
+        </script>
+
+</head>
+<body>
+        <form id="form1" runat="server">
+        <div>
+                <center>
+                        <table border="0" cellpadding="0" cellspacing="0" width="990">
+                                <tr>
+                                        <td>
+                                                <div class="Wrap_vtop">
+                                                        <table style="border: 0px; height: 70px; width: 990px;" cellpadding="0" cellspacing="0">
+                                                                <tr>
+                                                                        <td style="width: 240px;">
+                                                                                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/images/header_logo.gif" />
+                                                                        </td>
+                                                                        <td style="padding-right: 193px" align="right">
+                                                                                <asp:LinkButton ID="lbtnWAccess" runat="server" ForeColor="White">Wholesale Access</asp:LinkButton>
+                                                                                <span id="Span3" style="font-weight: bold;">&nbsp;l</span>
+                                                                                <asp:LinkButton ID="lbtnLogin" runat="server" ForeColor="White">Login</asp:LinkButton>
+                                                                                <span id="Span1" style="font-weight: bold;">&nbsp;l</span>
+                                                                                <asp:LinkButton ID="lbtnMyAccount" runat="server" ForeColor="White">My Account</asp:LinkButton>
+                                                                                <span id="Span2" style="font-weight: bold;">&nbsp;l</span>
+                                                                                <asp:LinkButton ID="lbtnViewCart" runat="server" ForeColor="White">View Cart</asp:LinkButton>
+                                                                        </td>
+                                                                </tr>
+                                                        </table>
+                                                </div>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <td>
+                                                <table border="0" cellpadding="0" cellspacing="0" width="990">
+                                                        <tr>
+                                                                <td valign="top" style="text-align: left">
+                                                                        <!-- Left Menu -->
+                                                                        <div style="height: 540px; width: 176px; border-width: 1px; border-color: #597886;
+                                                                                border-style: solid;">
+                                                                                <table cellpadding="0" cellspacing="0">
+                                                                                        <tr>
+                                                                                                <td align="center" style="height: 32px; background-position: center, top; background-image: url('images/LeftMenu_BG.gif');
+                                                                                                        width: 179px; background-repeat: no-repeat; text-align: center; vertical-align: middle;
+                                                                                                        font-family: Verdana; font-size: 12px; border-color: #597886; border-width: 1px;
+                                                                                                        font-weight: bold;">
+                                                                                                        Shop by BRAND
+                                                                                                </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                                <td align="left" style="padding-left: 12px; padding-top: 5px; padding-bottom: 40px;
+                                                                                                        width: 179px; text-align: left; line-height: 18px; vertical-align: top; font-family: Verdana;
+                                                                                                        font-size: 11px; border-color: #597886; border-width: 1px;">
+                                                                                                        <asp:Literal ID="ltrLMenuBrand" runat="server"></asp:Literal>
+                                                                                                </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                                <td align="center" style="height: 32px; background-position: center, top; background-image: url('images/LeftMenu_BG.gif');
+                                                                                                        width: 179px; background-repeat: no-repeat; text-align: center; vertical-align: middle;
+                                                                                                        font-family: Verdana; font-size: 12px; border-color: #597886; border-width: 1px;
+                                                                                                        font-weight: bold;">
+                                                                                                        Shop by CATEGORY
+                                                                                                </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                                <td align="left" style="padding-left: 12px; padding-top: 5px; padding-bottom: 20px;
+                                                                                                        width: 179px; line-height: 18px; text-align: left; vertical-align: top; font-family: Verdana;
+                                                                                                        font-size: 11px; border-color: #597886; border-width: 1px;">
+                                                                                                        <asp:Literal ID="ltrLMenuCategory" runat="server"></asp:Literal>
+                                                                                                </td>
+                                                                                        </tr>
+                                                                                </table>
+                                                                        </div>
+                                                                        <asp:HiddenField ID="htxtGender" runat="server" Value="Women" />
+                                                                        <!-- The end of left menu -->
+                                                                </td>
+                                                                <td valign="top" style="width: 810px;">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="810">
+                                                                                <tr>
+                                                                                        <td>
+                                                                                                <!-- Beginning of the Top Menu -->
+                                                                                                <div class="Header_Navigation">
+                                                                                                        <table border="0" cellpadding="0" cellspacing="0" width="810">
+                                                                                                                <tr>
+                                                                                                                        <td style="width: 120px;"><a href="ShowWindow/Default.aspx?GD=Women" 
+                                                                                                                                        onmouseout="MM_swapImgRestore()" 
+                                                                                                                                        onmouseover="MM_swapImage('ForWomen','','images/Topmenu_Women_on.gif',1)">
+                                                                                                                                <img alt="List for Women" id="ForWomen" border="0" height="34" name="ForWomen" src="images/Topmenu_Women_off.gif" width="120"/></a></td>
+                                                                                                                        <td style="width: 126px;"><a href="ShowWindow/Default.aspx?GD=Men" 
+                                                                                                                                        onmouseout="MM_swapImgRestore()" 
+                                                                                                                                        onmouseover="MM_swapImage('ForMen','','images/Topmenu_Men_on.gif',1)">
+                                                                                                                                <img alt="List for Men" id="ForMen" border="0" height="34" name="ForMen" src="images/Topmenu_Men_off.gif" width="126"/></a></td>
+                                                                                                                        <td style="width: 135px;"><a href="ShowWindow/Default.aspx?CN=Exclusive&GD=All" 
+                                                                                                                                        onmouseout="MM_swapImgRestore()"
+                                                                                                                                        onmouseover="MM_swapImage('ExclusiveItem','','images/Topmenu_Exclusive_on.gif',1)">
+                                                                                                                                <img alt="Exclusive items" id="ExclusiveItem" border="0" height="34" name="ExclusiveItem" src="images/Topmenu_Exclusive_off.gif" width="135" /></a></td>
+                                                                                                                        <td style="width: 120px;"><a href="Lookbook/Default.aspx" 
+                                                                                                                                        onmouseout="MM_swapImgRestore()" 
+                                                                                                                                        onmouseover="MM_swapImage('Lookbook','','images/Topmenu_Lookbook_on.gif',1)">
+                                                                                                                                <img alt="Lookbook" id="Lookbook" border="0" height="34" name="Lookbook" src="images/Topmenu_Lookbook_off.gif" width="120" /></a></td>
+                                                                                                                        <td style="width: 110px;"><a href="Policies/WhereToBuy.aspx" 
+                                                                                                                                        onmouseout="MM_swapImgRestore()" 
+                                                                                                                                        onmouseover="MM_swapImage('Locations','','images/Topmenu_Locations_on.gif',1)">
+                                                                                                                                <img alt="Locations" id="Img1" border="0" height="34" name="Locations" src="images/Topmenu_Locations_off.gif" width="120" /></a></td>
+                                                                                                                        <td style="text-align: right;"><a href="Policies/AboutUs.aspx" 
+                                                                                                                                        onmouseout="MM_swapImgRestore()" 
+                                                                                                                                        onmouseover="MM_swapImage('Press','','images/Topmenu_Aboutus_on.gif',1)">
+                                                                                                                                <img alt="Press" id="Img2" border="0" height="34" name="Press" src="images/Topmenu_Aboutus_off.gif" width="190" /></a></td>
+                                                                                                                </tr>
+                                                                                                        </table>
+                                                                                                </div>
+                                                                                                <!-- The end of the Top Menu -->
+                                                                                        </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                        <td>
+                                                                                                <!-- Beginning of the Contents -->
+                                                                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                                                                </asp:ContentPlaceHolder>
+                                                                                                <!-- The end of the contents   -->
+                                                                                        </td>
+                                                                                </tr>
+                                                                        </table>
+                                                                </td>
+                                                        </tr>
+                                                </table>
+                                        </td>
+                                </tr>
+                                <tr>
+                                        <td>
+                                                <div class="Wrap_footerbanner">
+                                                        <a href="javascript:opentable()">
+                                                                <asp:Image ID="GroundShipping" runat="server" ImageUrl="images/bottom_banner.gif" /></a></div>
+                                                <div class="Wrap_footer">
+                                                        <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="#E0E0E0" PostBackUrl="http://www.TrendyRags.com/Support/ContactUs.aspx">Contact Us</asp:LinkButton>
+                                                        |
+                                                        <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="#E0E0E0" PostBackUrl="http://www.TrendyRags.com/Policies/TermsOfUse.aspx">Terms of Use</asp:LinkButton>
+                                                        |
+                                                        <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="#E0E0E0" PostBackUrl="http://www.TrendyRags.com/Policies/ShippingAndReturn.aspx">Shipping and Return</asp:LinkButton>
+                                                        |
+                                                        <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="#E0E0E0" PostBackUrl="http://www.TrendyRags.com/Policies/PrivacyAndSecurity.aspx">Privacy & Security</asp:LinkButton>
+                                                        |
+                                                        <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="#E0E0E0" PostBackUrl="http://www.TrendyRags.com/Policies/CAPrivacyRight.aspx">Your California Privacy Rights</asp:LinkButton><br />
+                                                        Copyright © 2008 TrendyRags.com.<br />
+                                                        Photography by <a href="http://www.goodpersona.com">GoodPersona.com</a> | Images
+                                                        Copyright © 2007 TendyRags.com. <a href="http://www.Trendyrags.com/SEO/index.html">All Rights
+                                                                Reserved.</a>
+                                                </div>
+                                        </td>
+                                </tr>
+                        </table>
+                </center>
+        </div>
+        <div style="display: none;">
+                <eo:SlideMenu ID="SlideMenu1" runat="server" Width="179px" ControlSkinID="None" SlidePaneHeight="477">
+                        <LookItems>
+                                <eo:MenuItem ItemID="_TopGroup">
+                                        <SubMenu Style-CssText="border-right: #002d96 1px solid; border-top: #002d96 1px solid; font-weight: bold; font-size: 11px; border-left: #002d96 1px solid; cursor: hand; font-family: tahoma">
+                                        </SubMenu>
+                                </eo:MenuItem>
+                                <eo:MenuItem Height="31" HoverStyle-CssText="border-bottom: #002d96 1px solid" Image-ExpandedUrl="00000502"
+                                        Image-HoverUrl="00000501" Image-Mode="ItemBackground" Image-Url="00000500"
+                                        ItemID="_TopLevelItem" LeftIcon-Padding-Left="6" NormalStyle-CssText="border-bottom: #002d96 1px solid">
+                                        <SubMenu Style-CssText="padding-right: 10px; padding-left: 10px; font-size: 11px; padding-bottom: 2px; padding-top: 2px; border-bottom: #002d96 1px solid; font-family: tahoma">
+                                        </SubMenu>
+                                </eo:MenuItem>
+                                <eo:MenuItem Height="20" HoverStyle-CssText="color:#ffff80;font-weight:normal;text-decoration:underline;"
+                                        Image-ExpandedUrl="~/images/LeftMenu_BG.gif" Image-HoverUrl="~/images/LeftMenu_BG.gif"
+                                        Image-SelectedExpandedUrl="~/images/LeftMenu_BG.gif" Image-SelectedHoverUrl="~/images/LeftMenu_BG.gif"
+                                        Image-SelectedUrl="~/images/LeftMenu_BG.gif" Image-Url="~/images/LeftMenu_BG.gif"
+                                        ItemID="_Default" LeftIcon-Padding-Right="5" NormalStyle-CssText="font-weight: normal; text-decoration: none"
+                                        SelectedHoverStyle-CssText="color:#ffff80;">
+                                </eo:MenuItem>
+                                <eo:MenuItem Height="20" ItemID="plain_text" LeftIcon-Padding-Right="5" NormalStyle-CssText="font-weight: normal;"
+                                        Text-NoWrap="False">
+                                </eo:MenuItem>
+                        </LookItems>
+                        <TopGroup Style-CssText="border-bottom-color:#597886;border-bottom-style:solid;border-bottom-width:1px;border-left-color:#597886;border-left-style:solid;border-left-width:1px;border-right-color:#597886;border-right-style:solid;border-right-width:1px;border-top-color:#597886;border-top-style:solid;border-top-width:1px;">
+                                <Items>
+                                        <eo:MenuItem Image-ExpandedUrl="~/images/LeftMenu_BG.gif" Image-HoverUrl="~/images/LeftMenu_BG.gif"
+                                                Image-SelectedExpandedUrl="~/images/LeftMenu_BG.gif" Image-SelectedHoverUrl="~/images/LeftMenu_BG.gif"
+                                                Image-SelectedUrl="~/images/LeftMenu_BG.gif" Image-Url="~/images/LeftMenu_BG.gif"
+                                                LeftIcon-Url="" HoverStyle-CssText="color:#ffff80;" SelectedHoverStyle-CssText="color:#ffff80;;"
+                                                SelectedStyle-CssText="color:#ffff80;;" Text-HorizontalAlign="Center" Text-Html="SHOP BY CATEGORY">
+                                        </eo:MenuItem>
+                                        <eo:MenuItem LeftIcon-Url="" Text-HorizontalAlign="Center" Text-Html="SHOP BY BRAND"
+                                                HoverStyle-CssText="color:#ffff80;" Image-ExpandedUrl="~/images/LeftMenu_BG.gif"
+                                                Image-HoverUrl="~/images/LeftMenu_BG.gif" Image-SelectedExpandedUrl="~/images/LeftMenu_BG.gif"
+                                                Image-SelectedHoverUrl="~/images/LeftMenu_BG.gif" Image-SelectedUrl="~/images/LeftMenu_BG.gif"
+                                                Image-Url="~/images/LeftMenu_BG.gif" SelectedHoverStyle-CssText="color:#ffff80;"
+                                                SelectedStyle-CssText="color:#ffff80;" Checked="True" Expanded="True" Selected="True">
+                                        </eo:MenuItem>
+                                </Items>
+                        </TopGroup>
+                </eo:SlideMenu>
+        </div>
+        </form>
+
+        <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+        </script>
+
+        <script type="text/javascript">
+        _uacct = "UA-3354533-1";
+        urchinTracker();
+function ExclusiveItem_onclick() {
+
+}
+
+        </script>
+
+</body>
+</html>

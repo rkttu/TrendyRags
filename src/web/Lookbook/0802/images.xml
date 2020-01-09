@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+   <album lgpath="large/" tnpath="thumbs/"> 
+		<img src="page01.jpg" tn="pagetn01.jpg" />
+		<img src="page02.jpg" tn="pagetn02.jpg" />
+		<img src="page03.jpg" tn="pagetn03.jpg" />
+		<img src="page04.jpg" tn="pagetn04.jpg" />
+		<img src="page05.jpg" tn="pagetn05.jpg" />
+		<img src="page06.jpg" tn="pagetn06.jpg" />
+		<img src="page07.jpg" tn="pagetn07.jpg" />
+		<img src="page08.jpg" tn="pagetn08.jpg" />
+		<img src="page09.jpg" tn="pagetn09.jpg" />
+		<img src="page10.jpg" tn="pagetn10.jpg" />
+		<img src="page11.jpg" tn="pagetn11.jpg" />
+		<img src="page12.jpg" tn="pagetn12.jpg" />
+		<img src="page13.jpg" tn="pagetn13.jpg" />

@@ -1,0 +1,18 @@
+<br>
+*******************************<br>
+www.trendyrags.com!<br>
+*******************************<br>
+<br>
+Dear %%ClientName%%,<br>
+<br>
+We are packaging your order %%OrderNumber%% and are preparing to ship.  We will send you another e-mail confirming that your has been shipped.  Thank you for you patience. <br>
+<br>
+<br>
+If you need any assistance, we're here to help. Simply call (213) 471 -2913 (9am to 5pm PST).<br>
+<br>
+<br>
+Sincerely,<br>
+<br>
+Customer service<br>
+support@TrendyRags.com<br>
+<br>
