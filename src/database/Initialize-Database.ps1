@@ -39,12 +39,12 @@ else {
 $SqlPackagePath = 'C:\Program Files\Microsoft SQL Server\140\DAC\bin\SqlPackage.exe'
 & $SqlPackagePath  `
     /sf:$TargetDatabaseName.dacpac `
-    /a:Script /op:deploy.sql /p:CommentOutSetVarDeclarations=true `
+    /a:Script /op:"$TargetDatabaseName`_deploy.sql" /p:CommentOutSetVarDeclarations=true `
     /TargetServerName:$TargetServerName /TargetDatabaseName:$TargetDatabaseName `
     /TargetUser:$TargetUser /TargetPassword:$TargetPassword 
 
 $SqlCmdVars = "DatabaseName=$TargetDatabaseName", "DefaultFilePrefix=$TargetDatabaseName", "DefaultDataPath=$data_path\", "DefaultLogPath=$data_path\"  
-Invoke-Sqlcmd -InputFile deploy.sql -Variable $SqlCmdVars -Verbose
+Invoke-Sqlcmd -InputFile "$TargetDatabaseName`_deploy.sql" -Variable $SqlCmdVars -Verbose
 
 Write-Host "Deployed $TargetDatabaseName database, data files at: $data_path"
 
