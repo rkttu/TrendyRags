@@ -16,16 +16,16 @@ SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop';"]
 
 COPY --from=sqlpackage ["C:\\Program Files\\Microsoft SQL Server\\140\\DAC", "C:\\Program Files\\Microsoft SQL Server\\140\\DAC"]
 
-ARG DBNAME
+ARG DBNAMES
 
 ENV ACCEPT_EULA="Y" `
     DATA_PATH="C:\data" `
-    DBNAME=${DBNAME}
+    DBNAMES=${DBNAMES}
 
 VOLUME ${DATA_PATH}
 
 WORKDIR C:\init
 COPY Initialize-Database.ps1 .
-ENTRYPOINT ["powershell", "./Initialize-Database.ps1", "-TargetDatabaseName", "$env:DBNAME"]
+ENTRYPOINT ["powershell", "./Initialize-Database.ps1", "-TargetDatabaseNames", "$env:DBNAMES"]
 
-COPY ${DBNAME}.dacpac .
+COPY *.dacpac ./
