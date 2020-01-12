@@ -2,7 +2,7 @@ param(
     [string] $sa_password = $env:sa_password,
     [string] $data_path = $env:data_path,
     [string] $TargetServerName = '.',
-    [string[]] $TargetDatabaseNames = @(),
+    [string] $TargetDatabaseNames = '',
     [string] $TargetUser = 'sa',
     [string] $TargetPassword = $env:sa_password
 )
