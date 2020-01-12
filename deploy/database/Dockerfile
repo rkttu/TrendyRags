@@ -25,7 +25,7 @@ ENV ACCEPT_EULA="Y" `
 VOLUME ${DATA_PATH}
 
 WORKDIR C:\init
-COPY Initialize-Database.ps1 .
+COPY database-deploy\Initialize-Database.ps1 .
 ENTRYPOINT ["powershell", "./Initialize-Database.ps1", "-TargetDatabaseNames", "$env:DBNAMES"]
 
-COPY *.dacpac ./
+COPY database\*.dacpac ./

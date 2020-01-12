@@ -13,8 +13,8 @@ RUN powershell -Command Add-WindowsFeature Web-Server & `
 EXPOSE 80
 
 WORKDIR C:\init
-COPY deploy\Initialize-WebApp.ps1 .
-COPY deploy\Initialize.cmd .
+COPY web-deploy\Initialize-WebApp.ps1 .
+COPY web-deploy\Initialize.cmd .
 ENTRYPOINT ["cmd", "/c", "/init/Initialize.cmd"]
 
 HEALTHCHECK --interval=30s --timeout=20s --start-period=1s `
