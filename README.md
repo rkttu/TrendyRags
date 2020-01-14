@@ -10,4 +10,6 @@
 
 개별 컨테이너를 실행하기 위하여 `deploy` 디렉터리 아래의 `mssql`, `database`, `web`의 이미지를 빌드하여 `launch.cmd` 스크립트를 실행합니다.
 
+Kubernetes 배포를 위해서는 Azure ACR과 AKS 클러스터를 연결한 후, `kubernetes` 디렉터리 아래의 `kustomization.yaml` 파일의 비밀 번호 설정 부분에 강력한 비밀 번호를 설정하고 `kubectl apply -k .\kubernetes` 명령어를 실행합니다.
+
 최적화된 빌드와 실행을 위해서는 Windows Server 2019 환경에서 컨테이너를 빌드하고 실행하는 것을 권장합니다.

@@ -1,0 +1,7 @@
+secretGenerator:
+- name: sa-pass
+  literals:
+  - password=...
+resources:
+  - database-deployment.yaml
+  - web-deployment.yaml

@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: trendyrags
+  labels:
+    app: trendyrags
+spec:
+  ports:
+    - port: 80
+  selector:
+    app: trendyrags
+    tier: frontend
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trendyrags
+  labels:
+    app: trendyrags
+spec:
+  selector:
+    matchLabels:
+      app: trendyrags
+      tier: frontend
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: trendyrags
+        tier: frontend
+    spec:
+      containers:
+      - image: trendyrags.azurecr.io/trendyrags:latest
+        name: trendyrags
+        env:
+        - name: HOST_NAME
+          value: trendyrags-mssql
+        - name: DATABASE_NAME
+          value: TrendyRags
+        - name: USER_ID
+          value: sa
+        - name: PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: sa-pass
+              key: password
+        ports:
+        - containerPort: 80
+          name: trendyrags
